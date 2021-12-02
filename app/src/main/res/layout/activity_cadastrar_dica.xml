@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarDica">
+    <ImageButton
+        android:id="@+id/back_dicaCadastro"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"/>
+
+    <TextView
+        android:id="@+id/Text_CriarConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Criar Conta"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/Img_AboutDica"
+        android:layout_width="280dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="-10dp"
+        app:layout_constraintTop_toBottomOf="@id/Text_CriarConta"
+        app:layout_constraintLeft_toLeftOf="@id/Text_CriarConta"
+        app:layout_constraintRight_toRightOf="@id/Text_CriarConta"
+        android:src="@drawable/about"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="385dp"
+        android:layout_height="126dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/about_txt1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="-40dp"
+        app:layout_constraintLeft_toLeftOf="@id/Img_AboutDica"
+        app:layout_constraintRight_toRightOf="@id/Img_AboutDica"
+        app:layout_constraintTop_toBottomOf="@id/Img_AboutDica" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="335dp"
+        android:layout_height="126dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/about_txt2"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="-30dp"
+        app:layout_constraintLeft_toLeftOf="@id/txt1"
+        app:layout_constraintRight_toRightOf="@id/txt1"
+        app:layout_constraintTop_toBottomOf="@id/txt1" />
+    
+    <ImageButton
+        android:id="@+id/btEntrarCadastro"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintLeft_toLeftOf="@id/text2"
+        app:layout_constraintRight_toRightOf="@id/text2"
+        android:background="@drawable/borda_vermelha"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/red"
+        android:text="Vamos Lá"
+        app:layout_constraintRight_toRightOf="@id/btEntrarCadastro"
+        app:layout_constraintLeft_toLeftOf="@id/btEntrarCadastro"
+        app:layout_constraintTop_toTopOf="@id/btEntrarCadastro"
+        app:layout_constraintBottom_toBottomOf="@id/btEntrarCadastro"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
