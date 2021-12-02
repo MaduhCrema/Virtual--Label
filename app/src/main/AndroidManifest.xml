@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VirtualLabel">
         <activity
+            android:name=".Cadastro2"
+            android:exported="false" />
+        <activity
+            android:name=".Entrar"
+            android:exported="false" />
+        <activity
             android:name=".Cadastrar"
             android:exported="false" />
         <activity
