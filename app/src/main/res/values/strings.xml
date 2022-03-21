@@ -2,4 +2,23 @@
     <string name="app_name">Virtual Label</string>
     <string name="about_txt1">Criando uma conta, você terá acesso a informações de milhares de produtos alimentícios na palma da sua mão.</string>
     <string name="about_txt2">Ao fazer o cadastro você terá a opção de adicionar suas restrições alimentares para que possa ter avisos personalizados.</string>
+    <string name="txt_criandoPerfil">A sua idade será usada para definir alguns padrões de restrição.</string>
+    <string-array name="bt_genero">
+        <item>Selecione uma opção</item>
+        <item>Criança</item>
+        <item>Jovem</item>
+        <item>Adulto</item>
+        <item>Idoso</item>
+    </string-array>
+    <string name="finalizar">Finalizar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="txt_dicaPerfil">Estes dados irão determinar os níveis e dosagens quando você adicionar uma restrição alimentar a seu perfil. Então seja o mais sincero e próximo da realidade.</string>
+    <string name="txt_restri1">As Restrições são as limitações, doenças ou alergias alimentares que você possui.</string>
+    <string name="txt_restri2">Quando você incluir alguma Restrição ao seu perfil, as descrições dos produtos mostrarão avisos e indicações alimentares de acordo com as informações adicionadas.</string>
+    <string name="txtRestri">A <strong>Alergia Alimentar</strong> é uma <strong>Reação Adversa</strong> do nosso corpo a determinado alimento, com sintomas que podem ser leves ou graves.</string>
+    <string name="txt_fav">Ao clicar na estrela, o produto selecionado entra para a sua lista de favoritos e fica salvo offline</string>
+    <string name="dica_vermais">Batata, óleo misto vegetal de Palma e soja, preparado para salgadinhos [ farinha de arroz, sal, cloreto de potássio, matodextrina, cebola ( alimento tratado por processo de irradiação), amido modificado, realçadores de sabor: glutamato mossódico, inosinato dissódico e guanilato dissódico, aromatizante e antiumectante dióxido de sílicio.</string>
+    <string name="default_web_client">624529046678-k3gfospmevkvsb7k7srp0ltkcbaivcbh.apps.googleusercontent.com</string>
 </resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarPerfil">
+
+  <ImageView
+      android:id="@+id/Titulo_editar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/logocopia" />
+
+  <TextView
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toBottomOf="@id/Titulo_editar"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="20dp"
+      android:textSize="16sp"
+      android:text="Para modificar ou excluir a conta digite o nome atual do seu usuário"/>
+
+  <ImageView
+      android:id="@+id/barra_editar_user"
+      android:layout_width="340dp"
+      android:layout_height="80dp"
+      android:textColorHint="@color/light_grey"
+      app:layout_constraintTop_toBottomOf="@id/Titulo_editar"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="80dp"
+      android:background="@drawable/borda_cinza"
+      />
+
+  <EditText
+      android:id="@+id/txt_edit_user"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Insira o nome de usuário Atual"
+      app:layout_constraintTop_toTopOf="@id/barra_editar_user"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="15dp"/>
+
+  <ImageView
+      android:id="@+id/barra_editar_email"
+      android:layout_width="340dp"
+      android:layout_height="80dp"
+      android:textColorHint="@color/light_grey"
+      app:layout_constraintTop_toBottomOf="@id/barra_editar_user"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="40dp"
+      android:background="@drawable/borda_cinza"
+      />
+
+  <EditText
+      android:id="@+id/txt_edit_email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Insira o novo e-mail"
+      app:layout_constraintTop_toTopOf="@id/barra_editar_email"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="15dp"/>
+
+  <ImageView
+      android:id="@+id/barra_editar_senha"
+      android:layout_width="340dp"
+      android:layout_height="80dp"
+      android:textColorHint="@color/light_grey"
+      app:layout_constraintTop_toBottomOf="@id/barra_editar_email"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="40dp"
+      android:background="@drawable/borda_cinza"
+      />
+
+  <ImageView
+      android:id="@+id/barra_editar_nome"
+      android:layout_width="340dp"
+      android:layout_height="80dp"
+      android:textColorHint="@color/light_grey"
+      app:layout_constraintTop_toBottomOf="@id/barra_editar_senha"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="40dp"
+      android:background="@drawable/borda_cinza"
+      />
+
+  <EditText
+      android:id="@+id/txt_edit_senha"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Insira a nova senha"
+      app:layout_constraintTop_toTopOf="@id/barra_editar_senha"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="15dp"/>
+
+  <EditText
+      android:id="@+id/txt_edit_nome"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Insira seu novo nome"
+      app:layout_constraintTop_toTopOf="@id/barra_editar_nome"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="15dp"/>
+
+  <Button
+      android:id="@+id/bt_salvar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toBottomOf="@id/barra_editar_nome"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginTop="25dp"
+      android:layout_marginStart="-220dp"
+      android:backgroundTint="@color/red"
+      android:text="Salvar"
+      android:textColor="@color/white"/>
+
+  <Button
+      android:id="@+id/bt_excluir"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="@id/bt_salvar"
+      app:layout_constraintLeft_toRightOf="@id/bt_salvar"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_marginStart="20dp"
+      android:backgroundTint="@color/red"
+      android:text="Excluir Conta"
+      android:textColor="@color/white"/>
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/bottomAppBar_perfil"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:layout_marginBottom="-34dp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      android:background="@drawable/home_barra"
+      >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        />
+
+    <ImageButton
+        android:id="@+id/icon_home_edit_perfil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/home"
+        android:backgroundTint="@color/dark_grey"
+        app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+        app:layout_constraintLeft_toLeftOf="@id/bottomAppBar_perfil"
+        app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="30dp"/>
+
+    <ImageButton
+        android:id="@+id/fav_icon_edit_perfil"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/fav"
+        app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+        app:layout_constraintLeft_toLeftOf="@id/icon_home_perfil"
+        app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+        android:layout_marginTop="-28dp"
+        android:layout_marginStart="125dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/restri_icon_edit_perfil"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/restri"
+        app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+        app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil" />
+
+    <ImageButton
+        android:id="@+id/icon_perfil_edit_perfil"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/perfil"
+        android:backgroundTint="@color/dark_grey"
+        app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+        app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+        android:layout_marginTop="-24dp"
+        android:layout_marginStart="340dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Início"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:textStyle="bold"
+        android:translationZ="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-19dp"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:textStyle="bold"
+        android:translationZ="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restrições"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="-19dp"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:textStyle="bold"
+        android:translationZ="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="-19dp"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:textStyle="bold"
+        android:translationZ="90dp"/>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:backgroundTint="#00ECECEC"
+    android:foregroundTint="#00FFFFFF"
+    tools:context=".perfil">
+
+    <ImageView
+        android:id="@+id/Titulo_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logocopia" />
+
+    <ImageButton
+        android:id="@+id/bt_search_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/Titulo_perfil"
+        app:layout_constraintTop_toTopOf="@id/Titulo_perfil"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:src="@drawable/procurar"/>
+
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Titulo_perfil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="Perfil"
+        style="@style/criar_conta"
+        />
+
+    <ImageView
+        android:id="@+id/barra_perfil"
+        android:layout_width="360dp"
+        android:layout_height="2.5dp"
+        android:background="@drawable/barra"
+        app:layout_constraintTop_toBottomOf="@id/Titulo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="-5dp"
+        />
+
+    <ImageView
+        android:id="@+id/barra_perfil2"
+        android:layout_width="340dp"
+        android:layout_height="450dp"
+        android:textColorHint="@color/light_grey"
+        app:layout_constraintTop_toBottomOf="@id/barra_perfil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/borda_cinza"
+        />
+
+    <ImageButton
+        android:id="@+id/Setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_settings_24"
+        app:layout_constraintBottom_toBottomOf="@id/barra_perfil2"
+        app:layout_constraintLeft_toLeftOf="@id/barra_perfil2"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Senha/Email"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/barra_perfil2"
+        app:layout_constraintLeft_toLeftOf="@id/Setting"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/img_perfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/perfil10"
+        app:layout_constraintTop_toTopOf="@id/barra_perfil2"
+        app:layout_constraintLeft_toLeftOf="@id/barra_perfil2"
+        app:layout_constraintRight_toRightOf="@id/barra_perfil2"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/img_perfil"
+        app:layout_constraintLeft_toLeftOf="@id/img_perfil"
+        app:layout_constraintRight_toRightOf="@id/img_perfil"
+        android:text="Fulano Beltrano"
+        android:textSize="22sp"
+        android:layout_marginTop="0dp"
+        style="@style/criar_conta"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_baseline_email_24"
+        app:layout_constraintTop_toTopOf="@id/txt_email"
+        app:layout_constraintLeft_toLeftOf="@id/txt_email"
+        android:layout_marginStart="-30dp"/>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/criar_conta"
+        android:text="E-mail:"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/txtperfil"
+        app:layout_constraintLeft_toLeftOf="@id/txtperfil"
+        android:layout_marginStart="-40dp"
+        />
+
+    <TextView
+        android:id="@+id/txtemail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/txt_email"
+        app:layout_constraintLeft_toLeftOf="@id/txt_email"
+        android:text="fulano_beltrano@email.com"
+        android:textSize="16sp"
+        android:textColor="@color/light_grey"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="70dp"
+        />
+
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="4dp"
+        android:background="@drawable/barra"
+        app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+        app:layout_constraintLeft_toLeftOf="@id/bottomAppBar_perfil"
+        android:layout_marginTop="0dp"
+        android:translationZ="90dp"
+        android:layout_marginStart="330dp"/>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bottomAppBar_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="-34dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/home_barra"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            />
+
+        <ImageButton
+            android:id="@+id/icon_home_perfil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home"
+            android:backgroundTint="@color/dark_grey"
+            app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+            app:layout_constraintLeft_toLeftOf="@id/bottomAppBar_perfil"
+            app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+            android:layout_marginTop="-45dp"
+            android:layout_marginStart="30dp"/>
+
+        <ImageButton
+            android:id="@+id/fav_icon_perfil"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/fav"
+            app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+            app:layout_constraintLeft_toLeftOf="@id/icon_home_perfil"
+            app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+            android:layout_marginTop="-28dp"
+            android:layout_marginStart="125dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/restri_icon_perfil"
+            android:layout_width="20dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/restri"
+            app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+            app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil" />
+
+        <ImageButton
+            android:id="@+id/icon_perfil_perfil"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/perfil"
+            android:backgroundTint="@color/red"
+            app:layout_constraintTop_toTopOf="@id/bottomAppBar_perfil"
+            app:layout_constraintBottom_toBottomOf="@id/bottomAppBar_perfil"
+            android:layout_marginTop="-24dp"
+            android:layout_marginStart="340dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Início"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:translationZ="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favoritos"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="-19dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:translationZ="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restrições"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="-19dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:translationZ="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="-19dp"
+            android:textSize="14sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:translationZ="90dp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restricoes">
+
+    <ImageButton
+        android:id="@+id/back_dica"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/bt_back" />
+
+    <ImageView
+        android:id="@+id/Img"
+        android:layout_width="250dp"
+        android:layout_height="225dp"
+        app:layout_constraintTop_toBottomOf="@id/back_dica"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/rstri6"/>
+
+    <ImageView
+        android:id="@+id/Img2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toBottomOf="@id/Img"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="-48dp"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/talher"
+        />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:text="Selecione suas alergias"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@id/Img2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/criar_conta" />
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/txtRestri"
+        android:textSize="17sp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/Titulo"
+        app:layout_constraintRight_toRightOf="@id/Titulo"
+        app:layout_constraintTop_toBottomOf="@id/Titulo" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txt"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="40dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <RadioButton
+            android:id="@+id/bt1"
+            android:layout_width="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-56dp"
+        app:layout_constraintLeft_toLeftOf="@id/txt_bt1"
+        android:text="Lactose (Leite e seus Derivados)"
+        app:layout_constraintRight_toRightOf="@id/bt1"
+        app:layout_constraintTop_toTopOf="@id/bt1" />
+
+        <RadioButton
+            android:id="@+id/bt2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintTop_toBottomOf="@id/bt1"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glúten - Céliaco(Trigo e Derivados)"
+        app:layout_constraintRight_toRightOf="@id/bt2"
+        app:layout_constraintLeft_toLeftOf="@id/txt_bt1"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="74dp"
+        app:layout_constraintTop_toTopOf="@id/bt2"/>
+
+        <RadioButton
+            android:id="@+id/bt3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintTop_toBottomOf="@id/bt2"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ovo(Ovomucóide e à Ovalbumina)"
+        app:layout_constraintRight_toRightOf="@id/bt3"
+        app:layout_constraintLeft_toLeftOf="@id/txt_bt1"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="82dp"
+        app:layout_constraintTop_toTopOf="@id/bt3"/>
+
+        <RadioButton
+            android:id="@+id/bt4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintTop_toBottomOf="@id/bt3"
+            />
+
+    <TextView
+        android:id="@+id/txt_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frutos do Mar (Peixes, Crustáceos etc)"
+        app:layout_constraintRight_toRightOf="@id/bt4"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintTop_toTopOf="@id/bt4"/>
+
+        <RadioButton
+            android:id="@+id/bt5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintTop_toBottomOf="@id/bt4"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amendoins,Castanhas e Nozes"
+        app:layout_constraintRight_toRightOf="@id/bt5"
+        app:layout_constraintLeft_toLeftOf="@id/txt_bt1"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toTopOf="@id/bt5"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_prx"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Próximo Passo"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/borda"
+        style="@style/btCadastrar"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

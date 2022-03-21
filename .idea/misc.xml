@@ -5,21 +5,48 @@
       <map>
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/borda.xml" value="0.2703125" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/borda_cinza.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/borda_genero.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/borda_restri_vermais.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/borda_vermelha.xml" value="0.2703125" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/bt_cadastrar_press.xml" value="0.2703125" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/corda.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/home_barra.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2703125" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/drawable/red_gradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/font/acme.xml" value="0.284375" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/font/alfa_slab_one.xml" value="0.284375" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/font/cc_bold.xml" value="0.284375" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/font/cc_montserrat_bold.xml" value="0.284375" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_cadastrar.xml" value="0.2" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_cadastrar_dica.xml" value="0.22735507246376813" />
-        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_cadastro2.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_cadastro2.xml" value="0.264" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_cadastro3.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_camera_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_dialog_box.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_dica_restri.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_dica_restricoes_alimentares.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_editar_perfil.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_editar_perfil2.xml" value="0.21557971014492755" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_entrar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_favoritos.xml" value="0.264" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_nova_senha.xml" value="0.536" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_opcoescamera.xml" value="0.21829710144927536" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_perfil.xml" value="0.264" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_profile.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_quer_sair.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_restricoes.xml" value="0.264" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_search.xml" value="0.264" />
         <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_tela_restricoes.xml" value="0.4" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_teste.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/activity_ver_mais.xml" value="0.264" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/layout/texte.xml" value="0.128125" />
+        <entry key="..\:/Users/eduar/Desktop/Unioeste/2-Ano-CC/TDS/Virtual-Label/AS/app/src/main/res/xml/provider.xml" value="0.21829710144927536" />
       </map>
     </option>
   </component>

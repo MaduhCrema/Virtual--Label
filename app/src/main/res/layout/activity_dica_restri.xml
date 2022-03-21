@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DicaRestri">
+
+    <ImageButton
+        android:id="@+id/back_dicaRestri"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/bt_back" />
+
+
+    <Button
+        android:id="@+id/bt_pular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pular"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/borda"
+        style="@style/btEntrar"
+        />
+
+    <TextView
+        android:id="@+id/Titulo_Restri"
+        android:text="Deseja adicionar uma Restrição Alimentar?"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/criar_conta" />
+
+
+    <TextView
+        android:id="@+id/txt_restri1"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/txt_restri1"
+        android:textSize="17sp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/Titulo_Restri"
+        app:layout_constraintRight_toRightOf="@id/Titulo_Restri"
+        app:layout_constraintTop_toBottomOf="@id/Titulo_Restri" />
+
+
+
+    <ImageView
+        android:id="@+id/Img_restri"
+        android:layout_width="320dp"
+        android:layout_height="225dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_restri1"
+        app:layout_constraintLeft_toLeftOf="@id/txt_restri1"
+        app:layout_constraintRight_toRightOf="@id/txt_restri1"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/cadastro3"/>
+
+
+    <TextView
+        android:id="@+id/txt_restri2"
+        android:layout_width="360dp"
+        android:layout_height="126dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/txt_restri2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/Img_restri"
+        app:layout_constraintRight_toRightOf="@id/Img_restri"
+        app:layout_constraintTop_toBottomOf="@id/Img_restri" />
+
+    <ImageButton
+        android:id="@+id/btRestri"
+        android:layout_width="345dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_restri2"
+        app:layout_constraintLeft_toLeftOf="@id/txt_restri2"
+        app:layout_constraintRight_toRightOf="@id/txt_restri2"
+        android:background="@drawable/borda_vermelha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/red"
+        android:text="Vamos Lá"
+        app:layout_constraintRight_toRightOf="@id/btRestri"
+        app:layout_constraintLeft_toLeftOf="@id/btRestri"
+        app:layout_constraintTop_toTopOf="@id/btRestri"
+        app:layout_constraintBottom_toBottomOf="@id/btRestri"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

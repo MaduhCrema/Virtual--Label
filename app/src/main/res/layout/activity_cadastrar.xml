@@ -57,7 +57,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_email"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="50dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite seu e-mail"
-            android:inputType="textPassword"
+            android:inputType="text"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -96,7 +96,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/See_Password"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="50dp"
         app:passwordToggleEnabled="true"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -114,77 +114,67 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/txt_password_again"
+        android:id="@+id/txt_nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/criar_conta"
-        android:text="Confirme sua senha:"
-        android:textSize="17sp"
-        android:layout_marginTop="10dp"
+        android:text="Nome Completo:"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/See_Password"
         app:layout_constraintLeft_toLeftOf="@id/See_Password"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="18dp"
         />
 
     <ImageView
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:background="@drawable/ic_baseline_lock_24"
-        app:layout_constraintTop_toTopOf="@id/txt_password_again"
-        app:layout_constraintLeft_toLeftOf="@id/txt_password_again"
+        android:background="@drawable/user_nome"
+        app:layout_constraintTop_toTopOf="@id/txt_nome"
+        app:layout_constraintLeft_toLeftOf="@id/txt_nome"
         android:layout_marginStart="-30dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/See_Password_again"
-        android:layout_width="350dp"
+        android:id="@+id/input_nome"
+        android:layout_width="320dp"
         android:layout_height="50dp"
-        app:passwordToggleEnabled="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_password_again"
+        app:layout_constraintTop_toBottomOf="@id/txt_nome"
         style="@style/TextInputLayoutStyle"
+        android:layout_marginTop="2dp"
         >
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/edit_password_again"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite sua senha novamente"
-        android:inputType="textPassword"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome"
+            android:inputType="text"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:id="@+id/dica1"
+    <Button
+        android:id="@+id/cad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- No mínimo 6 caracteres."
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintTop_toBottomOf="@id/See_Password_again"
-        app:layout_constraintLeft_toLeftOf="@id/See_Password_again"
-        />
-    <TextView
-        android:id="@+id/dica2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="- No mínimo 1 letra."
-        android:textSize="15sp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/dica1"
-        app:layout_constraintLeft_toLeftOf="@id/dica1"
-        />
+        android:text="Validar Cadastro"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_nome"
+        style="@style/btCadastrar"/>
 
     <TextView
         android:id="@+id/entrar_again"
+        style="@style/criar_conta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/criar_conta"
         android:text="Já tem uma conta? Entre aqui"
         android:textSize="18sp"
-        android:layout_marginTop="25dp"
-        app:layout_constraintTop_toBottomOf="@id/dica2"
+        android:layout_marginTop="5dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@id/cad"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -195,17 +185,17 @@
         app:layout_constraintRight_toRightOf="@id/entrar_again"
         android:layout_marginTop="30dp"/>
 
-
     <ImageButton
         android:id="@+id/next_cadastro2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/ic_baseline_navigate_next_24"
-        app:layout_constraintTop_toTopOf="@id/entrar_again"
-        app:layout_constraintLeft_toLeftOf="@id/entrar_again"
-        app:layout_constraintRight_toRightOf="@id/entrar_again"
-        android:layout_marginRight="-320dp"
-        android:layout_marginTop="40dp"/>
+        app:layout_constraintTop_toTopOf="@id/See_Password"
+        app:layout_constraintRight_toRightOf="@id/See_Password"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-36dp"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
